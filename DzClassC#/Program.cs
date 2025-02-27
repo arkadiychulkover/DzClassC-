@@ -38,10 +38,10 @@
 
             int[] a = { 1, 2, 6, 22, 88, 7, 6 };
             int[] b = { 6, 88, 7 };
-            int[] result = filtArr(a, b);
-            foreach (var item in result)
+            int[] res = filtArr(a, b);
+            foreach (int it in res)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(it);
             }
         }
 
