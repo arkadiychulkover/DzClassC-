@@ -31,10 +31,10 @@
             //store.Input("Store", 123, "Opis", "123456789", "qaaa@gmaail.com");
             //store.Show();
 
-            //Bowl bowl = new Bowl(100);
-            //bowl.add(110);
-            //bowl.take(20);
-            //bowl.show();
+            Bowl bowl = new Bowl(100);
+            bowl.add(110);
+            bowl.take(20);
+            bowl.show();
 
             int[] a = { 1, 2, 6, 22, 88, 7, 6 };
             int[] b = { 6, 88, 7 };
@@ -309,10 +309,10 @@
 
     class Bowl 
     {
-        public string matereal;
-        public int curV;
-        public int maxV;
-        public bool isFull;
+        private string matereal;
+        private int curV;
+        private int maxV;
+        private bool isFull;
 
         public Bowl(int V)
         {
